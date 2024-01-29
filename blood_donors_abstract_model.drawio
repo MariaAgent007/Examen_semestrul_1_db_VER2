@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" modified="2024-01-29T13:38:43.813Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="8PKc1gQ5FZfMbx7zg02m" version="23.0.2" type="github" pages="2">
+  <diagram name="Page-1" id="ktLSlbdAjCaWFcY27dUH">
+    <mxGraphModel dx="2029" dy="2693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I1Vj_bFl4eYzMa7FdZjM-1" value="Donors" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="-1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I1Vj_bFl4eYzMa7FdZjM-2" value="Patients" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="-950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I1Vj_bFl4eYzMa7FdZjM-3" value="Nurses" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="-790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I1Vj_bFl4eYzMa7FdZjM-10" value="Donors_patients" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="-1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I1Vj_bFl4eYzMa7FdZjM-16" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="I1Vj_bFl4eYzMa7FdZjM-1" target="I1Vj_bFl4eYzMa7FdZjM-10" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="70" y="-1060" as="sourcePoint" />
+            <mxPoint x="230" y="-1140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="-1050" />
+              <mxPoint x="40" y="-1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I1Vj_bFl4eYzMa7FdZjM-20" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="I1Vj_bFl4eYzMa7FdZjM-2" target="I1Vj_bFl4eYzMa7FdZjM-10" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="50" y="-940" as="sourcePoint" />
+            <mxPoint x="229.03999999999996" y="-997.98" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="-830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I1Vj_bFl4eYzMa7FdZjM-21" value="Patients_nurses" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="-920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I1Vj_bFl4eYzMa7FdZjM-32" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="I1Vj_bFl4eYzMa7FdZjM-3" target="I1Vj_bFl4eYzMa7FdZjM-21" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="50" y="-800" as="sourcePoint" />
+            <mxPoint x="150" y="-900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I1Vj_bFl4eYzMa7FdZjM-33" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="I1Vj_bFl4eYzMa7FdZjM-2" target="I1Vj_bFl4eYzMa7FdZjM-21" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="50" y="-920" as="sourcePoint" />
+            <mxPoint x="150" y="-1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I1Vj_bFl4eYzMa7FdZjM-34" value="Donors_nurses" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-240" y="-980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I1Vj_bFl4eYzMa7FdZjM-63" value="Pre_examination" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="-1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I1Vj_bFl4eYzMa7FdZjM-64" value="Donation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="-1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I1Vj_bFl4eYzMa7FdZjM-65" value="Blood_donation_type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="110" y="-1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I1Vj_bFl4eYzMa7FdZjM-66" value="Donation_location" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="-1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I1Vj_bFl4eYzMa7FdZjM-67" value="Location_codes" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="-1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I1Vj_bFl4eYzMa7FdZjM-68" value="" style="fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="I1Vj_bFl4eYzMa7FdZjM-64" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-140" y="-1160" as="sourcePoint" />
+            <mxPoint x="-40" y="-1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I1Vj_bFl4eYzMa7FdZjM-70" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="I1Vj_bFl4eYzMa7FdZjM-65" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="50" y="-1160" as="sourcePoint" />
+            <mxPoint x="150" y="-1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I1Vj_bFl4eYzMa7FdZjM-72" value="" style="fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="I1Vj_bFl4eYzMa7FdZjM-64" target="I1Vj_bFl4eYzMa7FdZjM-66" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-10" y="-1200" as="sourcePoint" />
+            <mxPoint x="80" y="-1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I1Vj_bFl4eYzMa7FdZjM-73" value="" style="fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="I1Vj_bFl4eYzMa7FdZjM-66" target="I1Vj_bFl4eYzMa7FdZjM-67" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-10" y="-1310" as="sourcePoint" />
+            <mxPoint x="90" y="-1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I1Vj_bFl4eYzMa7FdZjM-74" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="I1Vj_bFl4eYzMa7FdZjM-1" target="I1Vj_bFl4eYzMa7FdZjM-64" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-20" y="-1080" as="sourcePoint" />
+            <mxPoint x="80" y="-1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qzs0eHA1YEtkTwMwtgIz-1" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;curved=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.417;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I1Vj_bFl4eYzMa7FdZjM-3" target="I1Vj_bFl4eYzMa7FdZjM-34">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-110" y="-750" as="sourcePoint" />
+            <mxPoint x="-360" y="-940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qzs0eHA1YEtkTwMwtgIz-2" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I1Vj_bFl4eYzMa7FdZjM-1" target="I1Vj_bFl4eYzMa7FdZjM-34">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-370" y="-800" as="sourcePoint" />
+            <mxPoint x="-270" y="-900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="P3iPUYOR-OyOXRhGfDRy" name="Page-2">
+    <mxGraphModel dx="2240" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
